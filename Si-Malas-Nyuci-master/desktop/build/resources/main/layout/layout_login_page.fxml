@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kelompok06.controller.LoginPageController">
+   <children>
+      <AnchorPane prefHeight="717.0" prefWidth="704.0" style="-fx-background-color: #40BFFF;">
+         <children>
+            <ImageView fitHeight="330.0" fitWidth="454.0" layoutX="125.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/Frame.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="297.0" layoutY="196.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="110.0" style="-fx-background-color: transparent; -fx-border-color: #FFFFFF; -fx-border-radius: 15;" text="Daftar" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="279.0" layoutY="117.0" />
+            <Label layoutX="103.0" layoutY="59.0" prefHeight="179.0" prefWidth="353.0" text="Belum punya akun ? Ayo daftarkan dirimu segera ! " textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="741.0" layoutY="93.0" text="Login">
+         <font>
+            <Font name="System Bold" size="64.0" />
+         </font>
+      </Label>
+      <Label layoutX="741.0" layoutY="246.0" text="Email" textFill="#40bfff">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfEmail" layoutX="741.0" layoutY="303.0" prefHeight="42.0" prefWidth="622.0" promptText="ex: email@email.com" style="-fx-background-color: transparent; -fx-border-width: 0 0 2 0; -fx-border-color: #40BFFF;" />
+      <Label layoutX="741.0" layoutY="383.0" text="Password" textFill="#40bfff">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="1002.0" layoutY="562.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="182.0" style="-fx-background-color: #40BFFF; -fx-border-radius: 20; -fx-background-radius: 20;" text="Button" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="pfPassword" layoutX="741.0" layoutY="446.0" prefHeight="45.0" prefWidth="622.0" promptText="***********" style="-fx-background-color: transparent; -fx-border-color: #40BFFF; -fx-border-width: 0 0 2 0;" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1412.0" prefWidth="1440.0" style="-fx-background-color: #E5E5E5;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kelompok06.controller.GuesOrderDetails">
+   <children>
+      <AnchorPane prefHeight="136.0" prefWidth="1440.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #CACDD8;">
+         <children>
+            <ImageView fitHeight="69.0" fitWidth="63.75" layoutX="51.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/Logo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="144.0" layoutY="70.0" text="History Pencucian">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="491.0" layoutY="70.0" text="Konfirmasi">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="610.0" layoutY="70.0" text="Informasi Pegawai">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="794.0" layoutY="70.0" text="Informasi Pelanggan">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Avatar layoutX="1342.0" layoutY="62.0">
+               <image>
+                  <Image url="@../image/avatar.png" />
+               </image>
+            </Avatar>
+            <Label layoutX="313.0" layoutY="70.0" text="Informasi Pencucian">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="985.0" layoutY="63.0" prefHeight="41.0" prefWidth="322.0" style="-fx-background-color: #F7F6F4; -fx-background-radius: 30; -fx-border-radius: 30;">
+         <children>
+            <TextField layoutX="45.0" layoutY="8.0" prefHeight="25.0" prefWidth="262.0" promptText="Search" style="-fx-border-width: 0 0 2 0; -fx-background-color: transparent;" />
+            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="20.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/search.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="16.0" fitWidth="23.0" layoutX="291.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/Vector.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="145.0" layoutY="146.0" text="Home  ›  Konfirmasi › Konfirmasi Pengambilan ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="263.0" layoutY="200.0" text="Konfirmasi pengambilan">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="202.0" layoutY="303.0" text="Order Detail">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Line endX="1000.0" layoutX="265.0" layoutY="342.81" startX="-77.0" startY="-2.441406195430318E-6" stroke="#cacdd8" />
+      <AnchorPane layoutX="187.0" layoutY="401.0" prefHeight="291.0" prefWidth="667.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label layoutX="52.0" layoutY="25.0" prefHeight="41.0" prefWidth="269.0" text="Name" textFill="#9098b1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="52.0" layoutY="66.0" prefHeight="41.0" prefWidth="269.0" text="Date Finish" textFill="#9098b1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="52.0" layoutY="114.0" prefHeight="41.0" prefWidth="269.0" text="Address" textFill="#9098b1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="52.0" layoutY="174.0" prefHeight="41.0" prefWidth="269.0" text="Order Code" textFill="#9098b1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="289.0" layoutY="25.0" prefHeight="41.0" prefWidth="269.0" text="Ares Pardosi" textFill="#223263">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="289.0" layoutY="66.0" prefHeight="41.0" prefWidth="269.0" text="Juni 15, 2021" textFill="#223263">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="289.0" layoutY="114.0" prefHeight="41.0" prefWidth="322.0" text="22381 Lakeshore Rd Laguboti, Toba Samosir" textFill="#223263">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="289.0" layoutY="174.0" prefHeight="41.0" prefWidth="269.0" text="DAQ121213134531" textFill="#223263" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="946.0" layoutY="401.0" prefHeight="313.0" prefWidth="383.0" style="-fx-background-color: #F5F7FF;">
+         <children>
+            <Label layoutX="60.0" layoutY="22.0" text="Order Summary">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Line endX="306.0" layoutX="52.0" layoutY="75.0" startX="-28.0" stroke="#cacdd8" />
+            <ChoiceBox layoutX="24.0" layoutY="75.0" prefHeight="42.0" prefWidth="335.0" style="-fx-background-color: transparan; -fx-border-width: 0 0 0 0; -fx-border-color: ;" />
+            <ImageView fitHeight="59.0" fitWidth="69.0" layoutX="26.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/selimut%201.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="66.06" fitWidth="63.82" layoutX="28.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/kemeja%201.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="112.0" layoutY="119.0" text="Selimut 1,5 kg">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="112.0" layoutY="139.0" text="Qty" textFill="#a2a6b0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="112.0" layoutY="159.0" text="1" textFill="#a2a6b0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="106.0" layoutY="210.0" text="kemeja katun, polyester">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="106.0" layoutY="230.0" text="Qty" textFill="#a2a6b0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="106.0" layoutY="253.0" text="1" textFill="#a2a6b0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="148.0" layoutY="139.0" text="Rp. 21.000">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="145.0" layoutY="230.0" text="Rp. 7.000">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Line endX="626.0" layoutX="265.0" layoutY="749.0" startX="-77.0" startY="-2.441406195430318E-6" stroke="#cacdd8" />
+      <Label layoutX="204.0" layoutY="788.0" text="Payment Details" textFill="#223263">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="181.0" layoutY="837.0" prefHeight="167.0" prefWidth="667.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label layoutX="23.0" layoutY="31.0" text="Items (2)" textFill="#9098b1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="75.0" text="Packing" textFill="#9098b1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="498.0" layoutY="75.0" text="Rp.5000" textFill="#223263">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="498.0" layoutY="31.0" text="Rp.28.000" textFill="#9098b1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="54.0" layoutY="121.0" text="Total Price" textFill="#223263">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="524.0" layoutY="121.0" text="Rp 33.000" textFill="#40bfff">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Line endX="913.0" layoutX="259.0" layoutY="1047.0" startX="-77.0" startY="-2.441406195430318E-6" stroke="#cacdd8" />
+      <Button layoutX="204.0" layoutY="1135.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="210.0" style="-fx-background-color: #40BFFF; -fx-border-radius: 20; -fx-background-radius: 20;" text="Cucian Diterima" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="12dp"
+    app:cardBackgroundColor="#D3D3D3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_pelanggan_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="#223263"
+        android:text="Ares JMP"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_kode"
+        android:layout_width="match_parent"
+        android:layout_below="@id/tv_pelanggan_name"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:text="Kode"/>
+
+        <TextView
+            android:id="@+id/tv_kode_cuci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_pelanggan_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:textColor="@color/old_blue"
+            android:text="078UYTFJKY" />
+
+    <TextView
+        android:id="@+id/tv_kunjungan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_kode"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Tanggal Kunjungan"/>
+
+     <TextView
+         android:id="@+id/tv_tgl_kunjung"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_below="@id/tv_kode"
+         android:textColor="@color/old_blue"
+         android:text="12 Juli 2020"/>
+
+    <TextView
+        android:id="@+id/tv_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_kunjungan"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Alamat"/>
+
+    <TextView
+        android:id="@+id/tv_isi_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_kunjungan"
+        android:textColor="@color/old_blue"
+        android:text="Jl. Sabam Sirait No. 32"/>
+
+    <ImageView
+        android:id="@+id/img_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_below="@id/tv_alamat"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/clock" />
+
+    <TextView
+        android:id="@+id/tv_status_cucian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_alamat"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="15dp"
+        android:ellipsize="end"
+        android:textColor="@color/old_blue"
+        android:text="Washing" />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

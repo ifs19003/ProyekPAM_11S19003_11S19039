@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".pemilik.TambahCucianActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/left_sign"/>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Tambahkan Cucian"
+            android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+        android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Pelanggan"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp">
+    </EditText>
+    <EditText
+        android:id="@+id/etTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No. Telepon"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/etDeskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Deskripsi Cucian"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp">
+    </EditText>
+    <EditText
+        android:id="@+id/etTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textShortMessage"
+        android:hint="Total Harga"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp">
+    </EditText>
+    <EditText
+        android:id="@+id/tangggalSelesai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="Tanggal Selesai"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp">
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Foto Cucian"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"/>
+    <ImageView
+        android:id="@+id/IdProf"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/add_image"/>
+    <Button
+        android:id="@+id/UploadBtn"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:textSize="10sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:text="Pilih"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/design_default_color_primary"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#40BFFF"
+            android:text="Tambahkan">
+        </Button>
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#F44336"
+            android:text="Batalkan">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

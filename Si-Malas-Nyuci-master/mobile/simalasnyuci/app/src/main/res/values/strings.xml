@@ -1,0 +1,38 @@
+<resources>
+    <array name="role">
+        <item>Karyawan Laundry</item>
+        <item>Pemilik Laundry</item>
+    </array>
+
+    <string name="app_name">Si Malas Nyuci</string>
+    <string name="sub_title">Aplikasi Laundry</string>
+    <string name="login_header">Sudah Memiliki Akun ?</string>
+
+    <string name="register_header">Ayo Bergabung Bersama Kami</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="label_name">Nama</string>
+    <string name="label_no_hp">No. HP</string>
+
+    <string name="label_role">Role</string>
+
+    <string name="label_have_account">Pengguna Baru ? Daftar Sekarang</string>
+    <string name="btn_login_text">Masuk</string>
+    <string name="btn_register_text">Mendaftar</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_pegawai">PegawaiActivity</string>
+    <string name="title_activity_pemilik">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

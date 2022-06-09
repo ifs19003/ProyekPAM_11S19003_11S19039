@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pemilik.InformasiCucianActivity"
+    android:background="#F4F2F7">
+
+    <LinearLayout
+        android:id="@+id/topCucian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/backg_cucian"
+        android:elevation="10dp"
+        android:padding="10dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="32dp">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="62dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/loundry_logo" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="19dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/loc" />
+
+            <TextView
+                android:id="@+id/txtCuci"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daftar Cucian"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Laguboti"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="All"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="@color/blue_primary"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:text="Washing"
+        android:textColor="@color/grey"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="@color/pink"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:textColor="@color/grey"
+        android:text="Iron"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="@color/young_green"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="315dp"
+        android:textColor="@color/grey"
+        android:text="Finish"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="@color/green"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        tools:listitem="@layout/item_card_cucian"
+        android:id="@+id/rvCucian">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>
